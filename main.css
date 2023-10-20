@@ -1,6 +1,4 @@
-*,
-::before,
-::after {
+*{
   box-sizing: border-box;
 }
 
@@ -81,6 +79,7 @@ ul {
   font-weight: bold;
   right: 3%;
 }
+
 .item {
   color: black;
 }
@@ -90,7 +89,6 @@ a {
 }
 
 .logo {
-  /* display: flex; */
   display: inline-block;
   cursor: pointer;
 }
