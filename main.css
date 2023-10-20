@@ -273,7 +273,7 @@ select {
 }
 
 .sub-banner > div > img {
-  margin-left: 1%;
+  padding-left: 1%;
   width: 100%;
 }
 
