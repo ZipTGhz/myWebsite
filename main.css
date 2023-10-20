@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -266,11 +266,15 @@ select {
   padding-top: 1px;
 }
 
-.sub-banner > div {
-  padding: 1px 0px 1px 3px;
+.sub-banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
+
 .sub-banner > div > img {
-  height: 201px;
+  margin-left: 1%;
+  width: 100%;
 }
 
 .zcarousel-control-prev,
