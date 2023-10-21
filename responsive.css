@@ -1,0 +1,22 @@
+@media only screen and (max-width: 767px) {
+  div.product-menu {
+    grid-template-columns: 1fr;
+  }
+  .product-card {
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  div.header-content-left {
+    margin: 10px 0;
+    width: 100%;
+  }
+  form.search-style-form {
+    border-radius: 5px;
+  }
+  span.logo,
+  div.header-content-right {
+    display: none;
+  }
+}
