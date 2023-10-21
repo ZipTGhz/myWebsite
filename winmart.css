@@ -1,23 +1,18 @@
-footer {
-  padding: 0;
-  margin: 0;
-}
-.footer {
+.first-footer-container {
   border-top: 3px solid #d52231;
-  background-color: #292929;
   color: #8f8e8e;
   background-color: aliceblue;
 }
 
-.footer1 {
+.first-footer-content {
   height: 200px;
+  display: block;
 }
 
 .footer2 {
   display: flex;
   align-items: center;
   height: 100%;
-  width: 1200px;
 }
 
 .item {
@@ -123,7 +118,7 @@ footer {
   font-size: 12px;
 }
 .can2 {
-  width: 1180px;
+  max-width: 1180px;
   margin: 15px auto;
   margin-bottom: 0;
 }

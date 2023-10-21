@@ -1,9 +1,16 @@
 @media only screen and (max-width: 767px) {
   div.product-menu {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr !important;
   }
   .product-card {
     align-items: center;
+  }
+  .carousel img {
+    width: 767px !important;
+    height: auto;
+  }
+  footer {
+    width: 767px !important;
   }
 }
 
@@ -18,5 +25,33 @@
   span.logo,
   div.header-content-right {
     display: none;
+  }
+  .header-color {
+    zoom: 150%;
+  }
+  .w24,
+  .w76 {
+    width: 50% !important;
+  }
+  div.product-menu {
+    grid-template-columns: 1fr 1fr;
+  }
+  div.sub-banner {
+    display: none;
+  }
+  .align-center {
+    max-width: fit-content;
+  }
+  div.main-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 155px;
+  }
+  .carousel img {
+    width: 991px;
+    height: auto;
+  }
+  footer {
+    width: 991px;
   }
 }

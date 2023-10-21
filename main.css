@@ -2,10 +2,13 @@
   box-sizing: border-box;
 }
 
-
+html,
+body {
+  overflow-x: scroll;
+}
 
 body {
-  margin: 0;
+  margin: 0 auto;
   font-family: Roboto, sans-serif;
   background-color: rgb(221, 221, 221);
 }
@@ -29,7 +32,6 @@ header {
 .align-center {
   margin: 0 auto;
   max-width: 1180px;
-  display: flex;
 }
 
 .flex-content {
@@ -186,10 +188,10 @@ select {
 }
 
 .w24 {
-  width: 24% !important;
+  width: 24%;
 }
 .w76 {
-  width: 76% !important;
+  width: 76%;
 }
 
 .user {
@@ -264,7 +266,7 @@ select {
 }
 
 .img-main-banner {
-  width: 875px;
+  height: 405px;
   padding-top: 1px;
 }
 
@@ -277,6 +279,7 @@ select {
 .sub-banner > div > img {
   padding-left: 1%;
   width: 100%;
+  min-width: 1px;
 }
 
 .zcarousel-control-prev,
