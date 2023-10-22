@@ -1,7 +1,7 @@
 @media only screen and (max-width: 991px) {
   main,
   footer {
-    min-width: 768px;
+    min-width: 768px !important;
   }
   .header-color {
     zoom: 125%;
