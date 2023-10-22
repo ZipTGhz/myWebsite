@@ -13,7 +13,7 @@
     width: 100%;
   }
   form.search-style-form {
-    border-radius: 5px;
+    border-radius: 10px;
   }
   div.product-menu {
     grid-template-columns: 1fr 1fr;
@@ -23,5 +23,8 @@
   }
   div.sub-banner {
     flex-direction: row;
+  }
+  div.search-style-container{
+    margin: 0 8px;
   }
 }
