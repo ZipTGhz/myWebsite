@@ -1,4 +1,8 @@
 @media only screen and (max-width: 991px) {
+  main,
+  footer {
+    min-width: 768px;
+  }
   .header-color {
     zoom: 125%;
   }
@@ -24,7 +28,7 @@
   div.sub-banner {
     flex-direction: row;
   }
-  div.search-style-container{
+  div.search-style-container {
     margin: 0 8px;
   }
 }
