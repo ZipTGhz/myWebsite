@@ -65,14 +65,12 @@ ul {
   color: white;
 }
 .zdropdown-menu > li > a > div {
+  padding-left: 10px;
   padding-top: 5px;
   width: 250px;
   height: 30px;
   color: #333;
   font-weight: 600;
-}
-.zdropdown-menu > li > a > div > span {
-  padding: 0 10px;
 }
 .zdropdown-menu > li:hover div {
   display: block;
@@ -96,7 +94,9 @@ a {
   display: inline-block;
   cursor: pointer;
 }
-
+.logo img {
+  height: 95px;
+}
 .header-content-left {
   display: flex;
   align-items: center;
@@ -259,7 +259,7 @@ select {
   right: 0;
   top: 0;
 }
-.sub-menu-container > ul > li > a > div {
+.sub-menu-container div {
   padding: 10px 0 10px 10px;
   color: #333;
   font-weight: 600;
@@ -276,7 +276,7 @@ select {
   justify-content: space-around;
 }
 
-.sub-banner > div > img {
+.sub-banner img {
   width: 100%;
 }
 
