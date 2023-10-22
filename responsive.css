@@ -19,7 +19,7 @@
     grid-template-columns: 1fr 1fr;
   }
   div.main-container {
-    margin-top: 75px;
+    margin-top: 60px;
   }
   div.sub-banner {
     flex-direction: row;
