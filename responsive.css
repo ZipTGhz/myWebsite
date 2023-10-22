@@ -1,20 +1,17 @@
 @media only screen and (max-width: 767px) {
-  div.product-menu {
-    grid-template-columns: 1fr !important;
-  }
-  .product-card {
-    align-items: center;
-  }
-  .carousel img {
-    width: 767px !important;
-    height: auto;
-  }
-  footer {
-    width: 767px !important;
-  }
+
 }
 
 @media only screen and (max-width: 991px) {
+  .header-color {
+    zoom: 125%;
+  }
+  span.logo,
+  div.header-content-right,
+  div.carousel,
+  div.nav-bar {
+    display: none;
+  }
   div.header-content-left {
     margin: 10px 0;
     width: 100%;
@@ -22,36 +19,13 @@
   form.search-style-form {
     border-radius: 5px;
   }
-  span.logo,
-  div.header-content-right {
-    display: none;
-  }
-  .header-color {
-    zoom: 150%;
-  }
-  .w24,
-  .w76 {
-    width: 50% !important;
-  }
   div.product-menu {
     grid-template-columns: 1fr 1fr;
   }
-  div.sub-banner {
-    display: none;
-  }
-  .align-center {
-    max-width: fit-content;
-  }
   div.main-container {
-    justify-content: center;
-    align-items: center;
-    margin-top: 155px;
+    margin-top: 75px;
   }
-  .carousel img {
-    width: 991px;
-    height: auto;
-  }
-  footer {
-    width: 991px;
+  div.sub-banner {
+    flex-direction: row;
   }
 }

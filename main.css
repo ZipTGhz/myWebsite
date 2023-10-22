@@ -277,9 +277,7 @@ select {
 }
 
 .sub-banner > div > img {
-  padding-left: 1%;
   width: 100%;
-  min-width: 1px;
 }
 
 .zcarousel-control-prev,
