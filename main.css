@@ -7,6 +7,11 @@ body {
   overflow-x: scroll;
 }
 
+main,
+footer {
+  min-width: 768px;
+}
+
 body {
   margin: 0 auto;
   font-family: Roboto, sans-serif;
