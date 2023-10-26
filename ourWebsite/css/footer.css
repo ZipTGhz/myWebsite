@@ -91,3 +91,32 @@
   font-family: sans-serif;
   font-size: 12px;
 }
+
+.mobile-footer-container {
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  box-shadow: 20px 20px 20px 20px rgba(122, 122, 122, 0.6);
+}
+
+.mobile-footer-content {
+  display: flex;
+}
+.mobile-footer-content > a {
+  width: 20%;
+}
+.mobile-footer-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  height: 60px;
+  justify-content: center;
+  font-size: 18px;
+  padding-top: 10px;
+  color: gray;
+}
+.mobile-footer-item > i {
+  font-size: 20px;
+}

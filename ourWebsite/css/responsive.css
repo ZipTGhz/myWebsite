@@ -1,15 +1,12 @@
 @media only screen and (max-width: 991px) {
-  main,
-  footer {
-    min-width: 768px !important;
-  }
   .header-color {
     zoom: 125%;
   }
   span.logo,
   div.header-content-right,
   div.carousel,
-  div.nav-bar {
+  div.nav-bar,
+  footer {
     display: none;
   }
   div.header-content-left {
@@ -30,5 +27,11 @@
   }
   div.search-style-container {
     margin: 0 8px;
+  }
+  footer.mobile-footer-container {
+    display: block;
+  }
+  .moblie-margin-bottom{
+    margin-bottom: 60px;
   }
 }
