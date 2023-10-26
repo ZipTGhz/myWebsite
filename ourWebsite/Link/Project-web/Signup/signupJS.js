@@ -25,23 +25,23 @@ function signup() {
         return;
     }
     if (phone.trim() === "") {
-        alert("Vui Lòng Nhập SĐT:");
+        alert("Vui Lòng Nhập SĐT Là 0123456789:");
         return;
     }
     if (!isValidPhoneNumber(phone)) {
-        alert("Vui Lòng Nhập Số Điện Thoại Đúng Định Dạng!");
+        alert("Vui Lòng Nhập Số Điện Thoại Đúng Định Dạng 0123456789!");
         return;
     }
     if (password.trim() === "") {
-        alert("Vui Lòng Nhập Mật Khẩu");
+        alert("Vui Lòng Nhập Mật Khẩu Là winmart");
         return;
     }
     if (phone !== "0123456789") {
-        alert("Vui Lòng Nhập Lại SĐT:");
+        alert("Vui Lòng Nhập Lại SĐT Là 0123456789:");
         return;
     }
     if (password !== "winmart") {
-        alert("Vui Lòng Nhập Lại Mật Khẩu");
+        alert("Vui Lòng Nhập Lại Mật Khẩu Là winmart");
         return;
     }
     alert("Đăng ký thành công!");
