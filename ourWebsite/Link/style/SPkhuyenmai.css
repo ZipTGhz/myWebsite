@@ -10,8 +10,7 @@
   .cart-menu,
   .user,
   .header-content-right,
-  .nav-bar,
-  .banner {
+  .nav-bar {
     display: none;
   }
   .align-center {
@@ -102,11 +101,6 @@
   }
   .option-header header {
     display: none;
-  }
-  .left-top,
-  .left-down {
-    width: 390px;
-    display: inline;
   }
 }
 
